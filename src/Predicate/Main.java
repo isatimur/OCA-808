@@ -12,7 +12,7 @@ public class Main {
     public static void checkAge(List<Person> list, Predicate<Person> predicate) {
         for (Person p : list) {
             if (predicate.test(p)) {
-                System.out.println(p.getName()+ " ");
+                System.out.println(p.getName() + " ");
             }
         }
     }
